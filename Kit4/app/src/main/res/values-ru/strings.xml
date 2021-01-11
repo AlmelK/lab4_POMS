@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="frag_ch">Другой фрагмент</string>
+    <string name="newAct">Другая активность</string>
+
+    <string name="solve_btn">Получить сумму</string>
+
+    <string name="num1">Число 1</string>
+    <string name="num2">Число 2</string>
+    <string name="total">Сумма</string>
+
+    <string name="wish_btn">Сортируй!</string>
+    <string name="resultView">Результат</string>
+    <string name="name">Данные для сортировки</string>
+
+    <string name="warningStr">Пожалуйста введите что-нибудь</string>
+    <string name="warningNum">Пожалуйста введите оба числа</string>
+
+    <string name="opHis">Открыть историю</string>
+    <string name="info">Информация</string>
+</resources>
