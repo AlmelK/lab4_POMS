@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">Kit4</string>
+    <string name="frag_ch">Switch fragment</string>
+    <string name="newAct">Another activity</string>
+
+    <string name="solve_btn">Get total</string>
+    <string name="num1">Number 1</string>
+    <string name="num2">Number 2</string>
+    <string name="total">Total</string>
+
+    <string name="wish_btn">Sort it!</string>
+    <string name="resultView">Result</string>
+    <string name="name">Data for sort</string>
+
+    <string name="warningStr">Please enter something</string>
+    <string name="warningNum">Please enter both numbers</string>
+
+    <string name="opHis">Open history</string>
+    <string name="info">Information</string>
+</resources>
