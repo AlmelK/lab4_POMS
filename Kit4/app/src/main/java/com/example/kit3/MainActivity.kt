@@ -70,6 +70,16 @@ class MainActivity : AppCompatActivity() {
             Log.d("lol",history.size.toString())
             startActivity(intent)
         }
+        else if(item.itemId == R.id.open_service)
+        {
+            val intent = Intent(this, ServiceActivity::class.java)
+            startActivity(intent)
+        }
+        else if(item.itemId == R.id.open_browser)
+        {
+            val intent = Intent(this, OpenBrowser::class.java)
+            startActivity(intent)
+        }
         return super.onOptionsItemSelected(item)
     }
 
@@ -93,6 +103,5 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun addItem(newItem: ItemView){ history.add(newItem)}
-
 
 }

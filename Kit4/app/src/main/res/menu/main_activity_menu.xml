@@ -4,5 +4,13 @@
     <item
         android:id="@+id/open_history"
         android:title="@string/opHis"/>
+    <item
+        android:id="@+id/open_service"
+        android:title="@string/opServ"/>
+
+    <item
+        android:id="@+id/open_browser"
+        android:title="@string/open_brows_item"/>
+
 
 </menu>

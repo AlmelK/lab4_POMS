@@ -18,4 +18,15 @@
 
     <string name="opHis">Открыть историю</string>
     <string name="info">Информация</string>
+
+    <string name="btn_Start">Запустить службу</string>
+    <string name="btn_End">Остановить службу</string>
+    <string name="opServ">Открыть управление службой</string>
+    <string name="startServ">Служба запущена</string>
+    <string name="stopServ">Служба остановлена</string>
+    <string name="alrStartServ">Служба уже запущена</string>
+    <string name="alrStopServ">Служба уже остановлена</string>
+    <string name="opBrows">Открыть</string>
+    <string name="forLink">Место для ссылки</string>
+    <string name="open_brows_item">Открыть браузер</string>
 </resources>

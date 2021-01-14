@@ -17,4 +17,15 @@
 
     <string name="opHis">Open history</string>
     <string name="info">Information</string>
+
+    <string name="btn_Start">Start service</string>
+    <string name="btn_End">Stop service</string>
+    <string name="opServ">Open service</string>
+    <string name="startServ">Service started</string>
+    <string name="stopServ">Service stopped</string>
+    <string name="alrStartServ">Service already started</string>
+    <string name="alrStopServ">Service already stopped</string>
+    <string name="opBrows">Open</string>
+    <string name="forLink">Wtite a link</string>
+    <string name="open_brows_item">Open browser</string>
 </resources>
