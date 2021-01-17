@@ -28,4 +28,25 @@
     <string name="opBrows">Open</string>
     <string name="forLink">Wtite a link</string>
     <string name="open_brows_item">Open browser</string>
+
+    <string name="file_content_btn">Show file content</string>
+    <string name="open_filecontent">Open file activity</string>
+    <string name="op_datbase_act">Open Database Activity</string>
+    <string name="op_shref_act">Open SharedReference Activity</string>
+    <string name="showDB">Show DataBase</string>
+    <string name="clearDB">Delete all</string>
+    <string name="clearScr">Clear Screen</string>
+
+    <string-array name="sh_pref_theme">
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+    <string name="pref_thema_key" translatable="false">theme_key</string>
+    <string name="pref_thema_title">Theme</string>
+    <string name="pref_thema_dialog">Choose theme?</string>
+    <string name="pref_thema_default" translatable="false">Blue</string>
+
+    <string name="cat1_anim">Animation 1</string>
+    <string name="cat2_anim">Animation 2</string>
+    <string name="op_animate_act">Graphic</string>
 </resources>

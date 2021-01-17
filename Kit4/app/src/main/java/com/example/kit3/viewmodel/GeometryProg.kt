@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Handler
 import android.os.IBinder
 import android.widget.Toast
+import java.io.File
 import java.util.*
 
 @Suppress("DEPRECATION")
@@ -12,6 +13,8 @@ class GeometryProg : Service() {
     private lateinit var mHandler: Handler
     private lateinit var mRunnable: Runnable
     private var number: Int = 1
+    private var text: String = ""
+
     override fun onBind(intent: Intent): IBinder? {
         return null
     }
@@ -32,8 +35,17 @@ class GeometryProg : Service() {
     }
 
     private fun geomProg(){
+        text += "Step: $number\n"
+        writeToFile(text)
         number = number*2
         Toast.makeText(applicationContext, "Next step: $number", Toast.LENGTH_SHORT).show()
         mHandler.postDelayed(mRunnable, 5000)
+    }
+
+    fun writeToFile(str: String){
+        val file = File(this.filesDir,"service_file.txt")
+        file.outputStream().use {
+            outputStream -> outputStream.write(str.toByteArray())
+        }
     }
 }

@@ -29,4 +29,20 @@
     <string name="opBrows">Открыть</string>
     <string name="forLink">Место для ссылки</string>
     <string name="open_brows_item">Открыть браузер</string>
+    <string name="op_shref_act">Настройки</string>
+
+    <string name="file_content_btn">Посмотреть содержимое</string>
+    <string name="open_filecontent">Просмотр файла</string>
+    <string name="op_datbase_act">База Данных</string>
+    <string name="showDB">Просмотр Базы данных</string>
+    <string name="clearDB">Удалить все из БД</string>
+    <string name="clearScr">Очистить экран</string>
+
+
+    <string name="pref_thema_title" >Тема</string>
+    <string name="pref_thema_dialog" >Выберите тему</string>
+
+    <string name="cat1_anim">Анимация 1</string>
+    <string name="cat2_anim">Анимация 2</string>
+    <string name="op_animate_act">Графика</string>
 </resources>

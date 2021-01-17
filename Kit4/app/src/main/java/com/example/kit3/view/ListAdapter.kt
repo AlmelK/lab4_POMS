@@ -11,7 +11,7 @@ import org.w3c.dom.Text
 import java.lang.StringBuilder
 import java.util.zip.Inflater
 
-class ListAdapter(private val history: java.util.ArrayList<ItemView>?)
+class ListAdapter(private val history: List<ItemView>)
     : RecyclerView.Adapter<ListAdapter.ItemViewHolder>(){
 
     override fun getItemCount(): Int = history?.size ?: 0

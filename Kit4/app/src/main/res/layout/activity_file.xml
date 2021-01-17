@@ -4,28 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.FileActivity">
 
     <Button
-        android:id="@+id/btnCh"
+        android:id="@+id/btn_filecont"
+        android:layout_width="232dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/file_content_btn"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="@string/frag_ch"
-        app:backgroundTint="@color/black"
-        app:cornerRadius="50dp"
+        android:layout_marginTop="58dp"
+        android:text="TextView"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_holder" />
-
-    <FrameLayout
-        android:id="@+id/fragment_holder"
-        android:layout_width="404dp"
-        android:layout_height="453dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </FrameLayout>
-
+        app:layout_constraintTop_toBottomOf="@+id/btn_filecont" />
 </androidx.constraintlayout.widget.ConstraintLayout>

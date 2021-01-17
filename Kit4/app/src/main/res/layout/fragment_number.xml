@@ -39,30 +39,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/totalView" />
 
-    <Button
-        android:id="@+id/total_btn"
-        android:layout_width="302dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#1E90FF"
-        android:elevation="20dp"
-        android:text="@string/solve_btn"
-        android:translationZ="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/num1" />
+
 
     <TextView
         android:id="@+id/totalView"
         android:layout_width="302dp"
         android:layout_height="48dp"
         android:layout_marginTop="36dp"
-        android:textSize="18dp"
         android:text="@string/total"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/total_btn"
+        android:layout_width="285dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/solve_btn"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/material_on_primary_disabled"
+        app:cornerRadius="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

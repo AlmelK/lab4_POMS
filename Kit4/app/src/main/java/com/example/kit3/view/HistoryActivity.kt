@@ -5,10 +5,11 @@ import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.kit3.viewmodel.HistoryFacad
 
 class HistoryActivity : AppCompatActivity() {
 
-    private var history: java.util.ArrayList<ItemView>? = java.util.ArrayList()
+    private lateinit var history: List<ItemView>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,7 +17,7 @@ class HistoryActivity : AppCompatActivity() {
 
         val intent = intent
 
-        history = intent.extras?.getParcelableArrayList<ItemView>(MainActivity.HISTORY_KEY)
+        history = HistoryFacad.getAllAsList(this)
 
             Log.d("SIZE", history?.size.toString())
 

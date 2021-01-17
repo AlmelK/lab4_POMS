@@ -12,5 +12,20 @@
         android:id="@+id/open_browser"
         android:title="@string/open_brows_item"/>
 
+    <item
+        android:id="@+id/open_fileact"
+        android:title="@string/open_filecontent"/>
+
+    <item
+        android:id="@+id/open_db"
+        android:title="@string/op_datbase_act"/>
+
+    <item
+        android:id="@+id/open_shref"
+        android:title="@string/op_shref_act"/>
+
+    <item
+        android:id="@+id/open_graph"
+        android:title="@string/op_animate_act"/>
 
 </menu>

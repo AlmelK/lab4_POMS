@@ -51,6 +51,6 @@ class StringFragment : Fragment() {
 
     fun addToHistory(n1: String,  res: String){
         val parent = activity as MainActivity?
-        parent?.addItem(ItemView(n1, "", "Sorting", res))
+         parent?.addItem(ItemView(null, n1, "", "Sort", res))
     }
 }
